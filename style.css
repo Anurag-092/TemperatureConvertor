@@ -1,0 +1,103 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: rgba(12, 13, 13, 0.938);
+    padding: 30px;
+    margin: 30px;
+}
+ .container{
+    width:90%;
+    /*max-width: 470px;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    height: 450px;
+   margin: 100px 40px 0px 450px;
+    gap:1rem ;
+    border: 3px solid rgb(56, 135, 56);
+    border-radius: 10px;
+    
+    padding: 35px 45px; */
+    width: 90%;
+    max-width: 470px;
+    height: 400px;
+     gap:1.5rem;
+    background:  rgba(12, 13, 13, 0.938);
+    
+    margin:100px auto 0;
+    border-radius: 10px;
+    text-align: center;
+    padding: 40px 35px;
+    color: #fff;
+    box-shadow: 0 0 10px 5px #ce2bab,
+    0 0 10px 7px #ebecca,
+    
+    0 0 10px 15px #ff1493;
+
+}
+.header h2{
+    color: rgb(193, 27, 115);
+
+   
+}
+.header span{
+    width: 10px;
+}
+.header{
+    margin-bottom: 20px;
+}
+.celsius input{
+    width: 92%;
+    border-radius: 10px;
+    margin-bottom: 15px;
+    border: 5px solid rgb(225, 43, 171);
+   font-size: 20px;
+   color: black;
+   font-weight: 600;
+}
+.farhnheit input{
+    width: 92%;
+    border-radius: 10px;
+    margin-bottom: 15px;
+    border: 5px solid rgb(225, 43, 171);
+    font-size: 20px;
+    color: black;
+    font-weight: 600;
+}
+.Kelvin input{
+    width: 95%;
+    border-radius: 10px;
+    margin-bottom: 15px;
+    border: 5px solid rgb(225, 43, 171);
+    font-size: 20px;
+    color: black;
+    font-weight: 600;
+}
+.btn-box button{
+    display: inline-block;
+    padding: 12px 20px;
+    background: rgb(207, 40, 146);
+    border-radius: 40px;
+    font-size: 16px;
+    color: #081b29;
+    letter-spacing: 1px;
+    text-decoration: none;
+    font-weight: 600;
+    margin-top: 20px;
+}
+.btn-box button:hover{
+    box-shadow: 0 0 5px rgb(185, 18, 121),
+    0 0 25px  rgb(185, 18, 121) , 0 0 50px  rgb(185, 18, 121),
+    0 0 100px  rgb(185, 18, 121) , 0 0 200px  rgb(185, 18, 121)
+}
+@media screen and (max-width:450px) {
+    .container{
+        height: 500px;
+    }
+    
+}
